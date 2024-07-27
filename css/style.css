@@ -856,9 +856,11 @@ main{
             position: relative;
             .site-image{
                 margin-bottom: 15px;
+                width: 100%;
+                height: auto;
                 img{
                     width: 100%;
-                    height: auto;
+                    height: 100%;
                     -webkit-border-radius: 10px;
                         -moz-border-radius: 10px;
                           -ms-border-radius: 10px;
@@ -944,7 +946,15 @@ main{
                 margin-bottom: 15px;
                 height: 625px;
                 .site-image{
+                    width: 95%;
+                    height: auto;
                     max-width: 768px;
+                    margin: auto;
+                    margin-top: 15px;
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
                 }
                 .site-info{
                     h2{
@@ -1009,6 +1019,10 @@ main{
                 height: 72vh;
                 .site-image{
                     max-width: 992px;
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
                 }
                 .site-info{
                     h2{
