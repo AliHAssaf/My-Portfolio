@@ -5,7 +5,7 @@ const web_data = [
         name: "Stars Group",
         languages: "HTML,Bootstrap",
         description: "This is a simple website present some information about stars group.",
-        image: "./img/web/bootstrap/stars-website-homepage-using-bootstrap.png"
+        image: "https://up6.cc/2024/06/171958029587771.png"
     },
     {
         id: "2",
