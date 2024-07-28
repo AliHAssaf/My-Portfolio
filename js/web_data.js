@@ -336,13 +336,16 @@ for (let i = 0; i < web_data.length; i++) {
     let language_value = (web_data[i].languages).split(",");
     site_cards.innerHTML  += `
     <div class="site-card" value="${language_value}">
-        <img src="${web_data[i].image}" alt="site image" class="site-image">
+        <div class="site-image">
+            <a href="${web_data[i].link}" target="_blank">
+                <img src="${web_data[i].image}" alt="site image">
+            </a>
+        </div>
         <div class="site-info">
             <h2>${web_data[i].name}</h2>
             <h4>${web_data[i].languages}</h4>
             <p>${web_data[i].description}</p>
         </div>
-        <a href="${web_data[i].link}" target="_blank" class="site-link">Go To The Site</a>
     </div>
     `;
 }
