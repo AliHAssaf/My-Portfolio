@@ -855,10 +855,10 @@ main{
             box-shadow: -5px 5px 10px var(--primary-color),5px -5px 10px var(--secondary-color);
             position: relative;
             .site-image{
-                margin-bottom: 15px;
                 img{
+                    margin-bottom: 15px;
                     width: 100%;
-                    height: auto;
+                    height: 45%;
                     -webkit-border-radius: 10px;
                         -moz-border-radius: 10px;
                           -ms-border-radius: 10px;
