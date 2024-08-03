@@ -944,10 +944,7 @@ main{
             display: block;
             .site-card{
                 margin-bottom: 15px;
-                height: 525px;
-                .site-image{
-                    max-width: 768px;
-                }
+                height: 625px;
                 .site-info{
                     h2{
                         font-size: 30px;
@@ -1008,10 +1005,7 @@ main{
             justify-content: space-around;
             align-items: center;
             .site-card{
-                height: 65vh;
-                .site-image{
-                    max-width: 992px;
-                }
+                height: 72vh;
                 .site-info{
                     h2{
                         font-size: 28px;
