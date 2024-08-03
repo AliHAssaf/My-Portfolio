@@ -140,7 +140,7 @@ const web_data = [
         link: "https://alihassaf.github.io/to-do-list/",
         name: "To Do List",
         languages: "HTML,CSS,JavaScript",
-        description: "Add and edit your task and when you complete it delte from the list.",
+        description: "Add and edit your task and when you complete it delete from the list.",
         image: "https://up6.cc/2024/06/171965170272871.png"
     },
     {
@@ -164,7 +164,7 @@ const web_data = [
         link: "https://alihassaf.github.io/poster-1/",
         name: "Poster 1",
         languages: "HTML,CSS",
-        description: "This page represent a poster  deigned with photoshop.",
+        description: "This page represent a poster  deigned with Photoshop.",
         image: "https://i.postimg.cc/9fBQwxsd/first-poster-using-css.png"
     },
     {
@@ -300,7 +300,7 @@ const web_data = [
         link: "https://alihassaf.github.io/movies-search/",
         name: "Movies Search",
         languages: "HTML,CSS,JavaScript,API",
-        description: "You can search for movies or TV shows beacuse of the large api that used in the site.",
+        description: "You can search for movies or TV shows because of the large api that used in the site.",
         image: "https://up6.cc/2024/06/171966321384981.png"
     },
     {
@@ -337,15 +337,14 @@ for (let i = 0; i < web_data.length; i++) {
     site_cards.innerHTML  += `
     <div class="site-card" value="${language_value}">
         <div class="site-image">
-            <a href="${web_data[i].link}" target="_blank">
-                <img src="${web_data[i].image}" alt="site image">
-            </a>
+            <img src="${web_data[i].image}" alt="site image">
         </div>
         <div class="site-info">
             <h2>${web_data[i].name}</h2>
             <h4>${web_data[i].languages}</h4>
             <p>${web_data[i].description}</p>
         </div>
+        <a href="${web_data[i].link}" target="_blank" class="site-link">Go To The Website</a>
     </div>
     `;
 }
