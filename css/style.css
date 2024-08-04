@@ -842,7 +842,7 @@ main{
         gap: 25px;
         .site-card{
             width: 100%;
-            height: 78vh;
+            height: 75vh;
             background-color: var(--secondary-color);
             padding: 10px;
             -webkit-border-radius: 10px;
@@ -857,7 +857,7 @@ main{
             & img{
             margin-bottom: 10px;
             width: 100%;
-            height: 45%;
+            height: 55%;
             -webkit-border-radius: 10px;
                 -moz-border-radius: 10px;
                     -ms-border-radius: 10px;
@@ -877,29 +877,6 @@ main{
                     font-size: 13px;
                     font-weight: 400;
                 }
-            }
-            .site-link{
-                width: 94%;
-                padding: 5px;
-                margin: 0 10px;
-                color: white;
-                font-weight: 700;
-                font-family: "Cairo";
-                -webkit-border: 2px solid white;
-                    -moz-border: 2px solid white;
-                      -ms-border: 2px solid white;
-                         -o-border: 2px solid white;
-                              border: 2px solid white;
-                -webkit-border-radius: 10px;
-                    -moz-border-radius: 10px;
-                      -ms-border-radius: 10px;
-                         -o-border-radius: 10px;
-                              border-radius: 10px;
-                text-align: center;
-                font-size: 20px;
-                position: absolute;
-                bottom: 10px;
-                left: 0;
             }
         }
     }
@@ -940,7 +917,7 @@ main{
             display: block;
             .site-card{
                 margin-bottom: 15px;
-                height: 625px;
+                height: 500px;
                 .site-info{
                     h2{
                         font-size: 30px;
@@ -951,11 +928,6 @@ main{
                     p{
                         font-size: 15px;
                     }
-                }
-                .site-link{
-                    width: 96%;
-                    font-weight: 600;
-                    font-size: 25px;
                 }
             }
         }
@@ -1001,10 +973,10 @@ main{
             justify-content: space-around;
             align-items: center;
             .site-card{
-                height: 72vh;
+                height: 75vh;
                 .site-info{
                     h2{
-                        font-size: 28px;
+                        font-size: 27px;
                     }
                     h4{
                         font-size: 16px;
@@ -1012,10 +984,6 @@ main{
                     p{
                         font-size: 14px;
                     }
-                }
-                .site-link{
-                    font-weight: 600;
-                    font-size: 23px;
                 }
             }
         }
@@ -1090,9 +1058,11 @@ main{
         grid-template-columns: repeat(3, 32%);
         justify-content: space-around;
         align-items: center;
+        gap: 20px;
+        padding: 15px;
         .card{
             width: 100%;
-            height: 650px;
+            height: 110vh;
             text-align: center;
             -webkit-border-radius: 8px;
                 -moz-border-radius: 8px;
@@ -1109,7 +1079,7 @@ main{
             z-index: 1;
             img{
                 width: 100%;
-                height: 400px;
+                height: 70%;
                 -webkit-border-radius: 8px;
                     -moz-border-radius: 8px;
                       -ms-border-radius: 8px;
@@ -1198,10 +1168,7 @@ main{
             display: block;
             margin: auto;
             .card{
-                img{
-                    width: 95%;
-                    height: 450px;
-                }
+                height: 135vh;
                 div{
                     h3{
                         font-size: 30px;
@@ -1253,11 +1220,7 @@ main{
             grid-template-columns: repeat(2, 47%);
             padding-left: 10px;
             .card{
-                height: 710px;
-                img{
-                    width: 100%;
-                    height: 500px;
-                }
+                height: 135vh;
                 div{
                     h3{
                         font-size: 24px;

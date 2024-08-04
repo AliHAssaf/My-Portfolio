@@ -9,23 +9,23 @@ const graphic_data = [
     {
         id: "2",
         photo: "https://up6.cc/2024/07/172000368485111.jpg",
-        name: "Language Course Advirtisment 1",
+        name: "Language Course Advertisement 1",
         type: "Poster",
-        description: "This poster represent an advirtisment about language course."
+        description: "This poster represent an advertisement about language course."
     },
     {
         id: "3",
         photo: "https://up6.cc/2024/07/172000372227011.jpg",
-        name: "Language Course Advirtisment 2",
+        name: "Language Course Advertisement 2",
         type: "Poster",
-        description: "This is the second poster about language course advirtisment."
+        description: "This is the second poster about language course advertisement."
     },
     {
         id: "18",
         photo: "https://up6.cc/2024/07/172000779508971.jpg",
         name: "Hair Style",
         type: "Poster",
-        description: "This is a smiple poster about hair style."
+        description: "This is a simple poster about hair style."
     },
     {
         id: "64",
@@ -53,7 +53,7 @@ const graphic_data = [
         photo: "https://up6.cc/2024/07/172000385307241.jpg",
         name: "Three Pages Flyer",
         type: "Flyer",
-        description: "This is one side of a flyer contains a three pages about desgin."
+        description: "This is one side of a flyer contains a three pages about design."
     },
     {
         id: "7",
@@ -135,9 +135,9 @@ const graphic_data = [
     {
         id: "19",
         photo: "https://up6.cc/2024/07/172000799011571.jpg",
-        name: "Candiate Paper",
+        name: "Candidate Paper",
         type: "Printing",
-        description: "This design represent some candiates for a position, each candiate has numbers."
+        description: "This design represent some candidates for a position, each candidate has numbers."
     },
     {
         id: "20",
@@ -151,14 +151,14 @@ const graphic_data = [
         photo: "https://up6.cc/2024/07/172000805228861.jpg",
         name: "AS Logo 2",
         type: "Logo",
-        description: "Second logo for a clothes shop withthe whole name."
+        description: "Second logo for a clothes shop with the whole name."
     },
     {
         id: "22",
         photo: "https://up6.cc/2024/07/172000808096221.jpg",
         name: "AS Logo 3",
         type: "Logo",
-        description: "Third logo for a clothes shop withthe whole name."
+        description: "Third logo for a clothes shop with the whole name."
     },
     {
         id: "23",
@@ -172,7 +172,7 @@ const graphic_data = [
         photo: "https://up6.cc/2024/07/17200081374291.jpg",
         name: "AS Logo 5",
         type: "Logo",
-        description: "Fivth logo for a clothes shop with A and S character."
+        description: "Fifth logo for a clothes shop with A and S character."
     },
     {
         id: "25",
@@ -249,7 +249,7 @@ const graphic_data = [
         photo: "https://up6.cc/2024/07/172000838857885.jpg",
         name: "My Logo 5",
         type: "Logo",
-        description: "This is my fivth special logo."
+        description: "This is my fifth special logo."
     },
     {
         id: "36",
@@ -352,7 +352,7 @@ const graphic_data = [
     {
         id: "49",
         photo: "https://up6.cc/2024/07/172000900946863.jpg",
-        name: "Monry Max Before",
+        name: "Money Max Before",
         type: "Logo,Redesign",
         description: "A money max logo before redesign and changing color."
     },
