@@ -456,7 +456,7 @@ for (let i = 0; i < graphic_data.length; i++) {
     graphic_cards.innerHTML += 
     `
     <div class="card">
-        <img src="${graphic_data[i].photo}" alt="${graphic_data[i].name}">
+        <img src="${graphic_data[i].photo}" alt="graphic image">
         <div>
             <h3>${graphic_data[i].name}</h3>
             <h4>${graphic_data[i].type}</h4>
@@ -483,28 +483,3 @@ for (let i = 0; i < type_list_item.length; i++) {
         }
     })
 }
-
-// for (let i = 0; i < graphic_data.length; i++) {
-//     while(!types.includes(graphic_data[i].type)){
-//         types.push(graphic_data[i].type);
-//     }
-// }
-
-    // graphic_main.innerHTML += `
-    // <div class="type">
-    //         <h2>${graphic_data[i].type}</h2>
-    //         <div class="cards">
-    //             <div class="card">
-    //                 <img src="${graphic_data[i].photo}" alt="${graphic_data[i].name}">
-    //                 <div>
-    //                     <h3>${graphic_data[i].name}</h3>
-    //                     <h4>${graphic_data[i].type}</h4>
-    //                     <p>${graphic_data[i].description}</p>
-    //                 </div>
-    //                 <a href="${graphic_data[i].photo}" target="_blank">See Picture in Full Mode</a>
-    //             </div>
-    //         </div>
-    //    </div>
-    //    `;
-
-  
