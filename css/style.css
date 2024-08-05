@@ -112,6 +112,8 @@ header{
                         margin: 20px 0;
                         padding: 20px;
                         font-size: 20px;
+                        font-family: 'Arial Rounded MT';
+                        font-weight: 100;
                     }
                     a:hover{
                         padding: 10px 15px;
@@ -1139,16 +1141,16 @@ main{
         .type-menu{
             width: 100%;
             font-size: 20px;
-           -webkit-border-bottom: 2px solid var(--secondary-color);
-             -moz-border-bottom: 2px solid var(--secondary-color);
-               -ms-border-bottom: 2px solid var(--secondary-color);
-                  -o-border-bottom: 2px solid var(--secondary-color);
-                       border-bottom: 2px solid var(--secondary-color);
+            -webkit-border-bottom: 2px solid var(--secondary-color);
+               -moz-border-bottom: 2px solid var(--secondary-color);
+                -ms-border-bottom: 2px solid var(--secondary-color);
+                 -o-border-bottom: 2px solid var(--secondary-color);
+                    border-bottom: 2px solid var(--secondary-color);
             -webkit-border-right: none;
-                -moz-border-right: none;
-                  -ms-border-right: none;
-                     -o-border-right: none;
-                          border-right: none;
+               -moz-border-right: none;
+                -ms-border-right: none;
+                 -o-border-right: none;
+                    border-right: none;
             .type-list{
                 display: -webkit-box;
                 display: -moz-box;
@@ -1170,7 +1172,7 @@ main{
             margin: -10px;
             .card{
                 width: 100%;
-                height: 135vh;
+                height: 115vh;
                 div{
                     h3{
                         font-size: 30px;
