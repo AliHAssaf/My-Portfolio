@@ -1077,7 +1077,7 @@ main{
             position: relative;
             background: linear-gradient(40deg, var(--primary-color), var(--secondary-color));
             z-index: 1;
-            img{
+            & img{
                 width: 100%;
                 height: 70%;
                 -webkit-border-radius: 8px;
