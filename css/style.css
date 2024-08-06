@@ -434,6 +434,9 @@ footer{
 }
 @media (max-width: 768px){
     .cv-main{
+        .border{
+            display: none;
+        }
         .header{
             display: flex;
             flex-direction: column-reverse;
@@ -1117,7 +1120,7 @@ main{
                     font-size: 15px;
                 }
             }
-            article{
+            .graphic-link{
                 width: 90%;
                 padding: 5px 25px;
                 -webkit-border-radius: 8px;
@@ -1129,9 +1132,7 @@ main{
                 position: absolute;
                 bottom: 10px;
                 left: 16px;
-                a{
-                    color: white;
-                }
+                color: white;
             }
         }
         .card::before{
@@ -1198,8 +1199,8 @@ main{
                         font-size: 20px;
                     }
                 }
-                a{
-                    width: 92%;
+                .graphic-link{
+                    width: 94%;
                 }
             }
         }
