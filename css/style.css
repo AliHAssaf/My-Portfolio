@@ -419,7 +419,7 @@ footer{
             & img{
                 margin-right: 10px;
             }
-            & a{
+            & .social-link{
                 font-size: 13px;
                 color: var(--secondary-color);
                 -webkit-text-decoration: none;
@@ -595,7 +595,7 @@ footer{
                     & img{
                         margin-right: 5px;
                     }
-                    & a{
+                    & .social-link{
                         font-size: 12px;
                         font-weight: 500;
                     }
@@ -670,7 +670,7 @@ footer{
                         & img{
                             margin-right: 5px;
                         }
-                        & a{
+                        & .social-link{
                             font-size: 10px;
                             font-weight: 500;
                         }
