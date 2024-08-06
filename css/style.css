@@ -1120,8 +1120,8 @@ main{
                     font-size: 15px;
                 }
             }
-            .graphic-link{
-                width: 90%;
+            .link{
+                width: 94%;
                 padding: 5px 25px;
                 -webkit-border-radius: 8px;
                 -moz-border-radius: 8px;
@@ -1130,9 +1130,12 @@ main{
                 border-radius: 8px;
                 background-image: linear-gradient(161deg,var(--secondary-color) 25%,var(--primary-color) 80%);
                 position: absolute;
-                bottom: 10px;
-                left: 16px;
-                color: white;
+                bottom: 5px;
+                left: 0px;
+                text-align: center;
+                .graphic-link{
+                    color: white;
+                }
             }
         }
         .card::before{
