@@ -462,9 +462,7 @@ for (let i = 0; i < graphic_data.length; i++) {
             <h4>${graphic_data[i].type}</h4>
             <p>${graphic_data[i].description}</p>
         </div>
-        <div class="link">
-            <a href="${graphic_data[i].photo}" target="_blank" class="graphic-link">See Picture in Full Mode</a>
-        </div>
+        <a href="${graphic_data[i].photo}" target="_blank" class="graphic-link">See Picture in Full Mode</a>
     </div>
     `
 }
